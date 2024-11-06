@@ -1,0 +1,47 @@
+body {
+margin: 0;
+padding: 0 ;
+box-sizing: border-box;
+background-color: black;
+height: 600px;
+position: relative;
+
+}
+
+
+.container{
+position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+.floor{
+    position: absolute;
+   
+    width: 600px;
+    height: 600px;
+    z-index:-1;
+    background-color: #272727;
+    object-fit: cover;
+}
+
+.polygon{
+    position: absolute;
+    /* top: -92px; */
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* .status-filter {
+    position: fixed;
+    top:10px;
+    left: 10px;
+    z-index: 1000;
+    height: 100px;
+    color: white;
+    background-color: blue;
+} */
+

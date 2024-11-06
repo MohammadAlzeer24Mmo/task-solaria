@@ -1,0 +1,41 @@
+.status-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.status {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255,0.9);
+  text-align: center;
+  cursor: pointer;
+}
+
+.available {
+  border: 2px solid rgb(158, 158, 168,0);
+  background-color: rgb(41, 190, 66);
+}
+.sold {
+  border: 2px solid rgb(158, 158, 168,0);
+  background-color: rgb(150, 58, 58);
+}
+.reserved {
+  border: 2px solid rgba(194, 145, 39, 0);
+  background-color: rgb(228, 146, 52);
+}
+
+
+.available:hover,
+.sold:hover {
+  border: 2px solid rgb(199, 199, 211); 
+}
+.reserved:hover {
+  border: 2px solid rgb(199, 199, 211); 
+}
+
+
+.selected {
+  border: 2px solid rgb(199, 199, 211); 
+}

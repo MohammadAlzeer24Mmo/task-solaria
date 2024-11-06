@@ -1,0 +1,47 @@
+.unit-info-overlay {
+    width: 180px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    padding: 16px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 10;
+    font-size: 1.2rem;
+    gap: 18px;
+  }
+  
+  .unit-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .unit-info-overlay .detail {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .unit-info-overlay .detail .label {
+    font-weight: bold;
+  }
+  
+  .green {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .red {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .orange {
+    color: orange;
+    font-weight: bold;
+  }
+ 

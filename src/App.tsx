@@ -1,28 +1,19 @@
-import image from './assets/0-floor.png';
-import svgOverlay from './assets/0-floor.svg';
+import image from "./assets/0-floor.png";
+import Filter from "./Components/Filter/Filter";
+import PolygonDataOverlay from "./Components/Polygon-Tooltip/PolygonTooltip";
+import SVGPolygons from "./Components/SVGPolygons";
 
 function App() {
   return (
     <>
-      <img style={{
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        width: '100%',
-        height: '100%',
-        backgroundColor: '#272727',
-        objectFit: 'cover'
-      }} src={image} />
-      <img style={{
-        position: 'fixed',
-        top: '0',
-        left: '0',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover'
-      }} src={svgOverlay} />
+      <div className="container">
+        <img className="floor" src={image} />
+        <SVGPolygons />
+      </div>
+      <Filter />
+      <PolygonDataOverlay />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

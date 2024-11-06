@@ -1,0 +1,17 @@
+
+.price-filter{
+    border-top: 2px solid rgb(210, 216, 226);
+    padding-top: 6px;
+}
+
+.price-header {
+  font-size: 1rem !important;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.price-range {
+  font-size: 0.7rem !important;
+  display: flex;
+  justify-content: space-between;
+}
